@@ -70,6 +70,19 @@ const Dashboards = () => {
               </Col>
             </Row>
           </div>
+          <div className="members">
+            <a href="#">
+              <div className="member">
+                <div className="mphoto">A</div>
+                <div className="minfo">
+                  <p className="mname">Ala eddine Nasri</p>
+
+                  <p className="mmail">ia_nasri@esi.dz</p>
+                </div>
+                <div className="mdep">Development</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
