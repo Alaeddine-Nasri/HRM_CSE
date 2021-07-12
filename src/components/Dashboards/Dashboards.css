@@ -24,6 +24,10 @@ body {
   background-color: #dddddd;
   float: right;
 }
+p {
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .title {
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -49,14 +53,13 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 20px;
-  padding: 4px;
+  padding: 3px;
 }
 .filtre {
   display: flex;
-
   justify-content: center;
-  margin-right: 10%;
-  margin-left: 10% !important;
+  margin-right: 0.1%;
+  margin-left: 0.1% !important;
   border-radius: 20px;
 }
 .filtre:hover {
@@ -74,4 +77,52 @@ body {
 a {
   color: black;
   text-decoration: none;
+}
+.mphoto {
+  background-color: #ddd;
+  width: 24px;
+  padding: 13px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  margin-left: 2px;
+  margin-right: 20px;
+}
+.member {
+  display: flex;
+  margin-bottom: 9px;
+  border-radius: 20px;
+  padding: 4px;
+}
+.member:hover {
+  background-color: #02a5dc;
+}
+.mname {
+  line-height: 0px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  font-weight: 900;
+}
+.mmail {
+  line-height: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: rgb(110, 106, 106);
+}
+.mdep {
+  background-color: green;
+  color: #ffffff;
+  padding: 8px;
+  width: 130px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 2px;
 }
