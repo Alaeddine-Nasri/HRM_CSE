@@ -1,0 +1,93 @@
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px !important;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #181c32;
+  background-color: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  padding: 10px;
+  box-shadow: 0.01px 0.01px 8px black;
+  position: fixed;
+  overflow-x: hidden;
+  width: 16.66%;
+}
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.sidebarlogo {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.menu-item {
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 18px;
+}
+a {
+  text-decoration: none;
+}
+.menu-item-footer {
+  display: flex;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  bottom: 30px;
+}
+.icon-item {
+  width: 10%;
+  color: #ffffff;
+}
+.active {
+  background-color: #02a5dc;
+  color: #fff !important;
+}
+.active a {
+  background-color: #02a5dc;
+  color: #fff !important;
+}
+
+.text-item {
+  margin-left: 15px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  color: black;
+}
+.line {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1px;
+  width: 70%;
+  background-color: grey;
+}
